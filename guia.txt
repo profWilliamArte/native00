@@ -1,0 +1,10 @@
+1) npx create-expo-app@latest .
+2) npm start
+    
+
+<TabBarIcon name={focused ? 'bell' : 'bell-outline'} color={color} />   
+<TabBarIcon name={focused ? 'cart' : 'cart-outline'} color={color} />
+<TabBarIcon name={focused ? 'star' : 'star-outline'} color={color} />
+<TabBarIcon name={focused ? 'map' : 'map-outline'} color={color} />
+<TabBarIcon name={focused ? 'chat' : 'chat-outline'} color={color} />
+<TabBarIcon name={focused ? 'camera' : 'camera-outline'} color={color} />

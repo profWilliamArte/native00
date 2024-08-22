@@ -32,6 +32,25 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="productos"
+        options={{
+          title: 'Productos',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'cog' : 'cog-outline'} color={color} />
+          ),
+        }}
+      />
+
+      <Tabs.Screen
+        name="servicios"
+        options={{
+          title: 'Servicios',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'map' : 'map-outline'} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
